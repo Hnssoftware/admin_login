@@ -1,0 +1,536 @@
+.container {
+    margin: 40px;
+    padding: 0;
+}
+
+body {
+    background-color: #7b93a6;
+}
+
+.main {
+    background-color: #fff;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    height: 465px;
+}
+
+.first {
+    width: 45%;
+    height: auto;
+    background-color: #fff;
+    flex: 1 1 0%;
+}
+
+.second {
+    width: 55%;
+    height: auto;
+    flex: 1 1 0%;
+}
+
+.signDetails {
+    padding: 0px 6rem 0px 60px;
+}
+
+.googleBtn {
+    width: 100%;
+    background: transparent;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    padding: 5px 0px;
+}
+
+.googleBtnSignup {
+    width: 100%;
+    background: transparent;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.img2 {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f4f4f4;
+    }
+    
+    /* Container styling */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Main layout styling */
+    .main {
+        display: flex;
+        width: 90%;
+        max-width: 1200px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* First column styling */
+    .first {
+        flex: 1;
+        padding: 2rem;
+    }
+    
+    /* Second column styling */
+    .second {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    /* Logo and branding styling */
+    .logo1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .img2 {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    .p1Signup {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .logo2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    
+    .p2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .img3 {
+        width: 30px;
+        height: auto;
+    }
+    
+    .p3 {
+        font-size: 1rem;
+        color: #666;
+        margin-top: 1rem;
+    }
+    
+    /* Google sign-up button styling */
+    .googleBtnSignup {
+        display: flex;
+        align-items: center;
+        background-color: #4285F4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 0.75rem 1rem;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    .img4 {
+        width: 20px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    .p4 {
+        font-size: 1rem;
+    }
+    
+    /* Email sign-up text styling */
+    .p5Signup {
+        margin-top: 1rem;
+        color: #666;
+        font-size: 0.9rem;
+    }
+    
+    /* Input field styling */
+    .name input {
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    .firstNameSignup {
+        margin-right: 0.5rem;
+    }
+    
+    /* Password field styling */
+    .inputPasswordSignup {
+        margin-top: 0.5rem;
+    }
+    
+    /* Remember me section styling */
+    .tickSignup {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    
+    .img6 {
+        width: 20px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    .p13 {
+        font-size: 0.9rem;
+    }
+    
+    /* Sign-up button styling */
+    .btnSignup {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    /* Footer links styling */
+    .rem {
+        display: flex;
+        margin-top: 1rem;
+    }
+    
+    .p14 {
+        font-size: 0.9rem;
+    }
+    
+    .p15 {
+        font-size: 0.9rem;
+        color: #007bff;
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+    
+    /* Image in the second column */
+    .img1 {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+}
+
+.img3 {
+    width: 6%;
+    height: 6%;
+    padding-bottom: 10px;
+}
+
+.img4 {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+}
+
+.img5 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    float: right;
+}
+
+.img6 {
+    width: 20px;
+    height: 20px;
+}
+
+.img7 {
+    width: 50px;
+    height: 50px;
+}
+
+.p1 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 2px 0px;
+}
+
+.p1Signup {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.p2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-right: 4px;
+}
+
+.p3 {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #a7a8aa;
+    margin-top: -10px;
+}
+
+.p4 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.p5 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #c4cbd5;
+}
+
+.p5Signup {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #c4cbd5;
+}
+
+.p6 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.p7 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #d7d8d9;
+}
+
+.p8 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #d7d8d9;
+}
+
+.p9 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.p10 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #d7d8d9;
+    text-align: center;
+}
+
+.p11 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.p11Signup {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+
+.p12 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #d7d8d9;
+    text-align: center;
+}
+
+.p13 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.p14 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.p15 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #9e92fa;
+    text-align: center;
+}
+
+.p16 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 230px;
+    margin: auto;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+}
+
+.gbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 1px;
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 18px 100px;
+}
+
+.name {
+    display: flex;
+}
+
+.firstName {
+    margin-right: 10px;
+}
+
+.firstNameSignup {
+    margin-right: 10px;
+    padding: 6px 0px 6px 10px;
+    border: 0.5px solid #a7a8aa;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.mail {
+    height: auto;
+    width: 50px;
+    padding: 6px 120px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.pass {
+    height: auto;
+    width: 50px;
+    padding: 1px 120px;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+.tick {
+    display: flex;
+    align-items: center;
+}
+
+.tickSignup {
+    display: flex;
+    align-items: center;
+    margin: -3px 0px;
+}
+
+.btn {
+    width: 100%;
+    padding: 11px;
+    background-color: rgb(68, 129, 241);
+    color: white;
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+
+input {
+    padding: 11px 0px 11px 10px;
+    border: 0.5px solid #a7a8aa;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input[type=password] {
+    background-color: white;
+    background-image: url('images/img5.png');
+    background-position: 405px 4px;
+    background-repeat: no-repeat;
+}
+
+.btnSignup {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(68, 129, 241);
+    color: white;
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+
+.inputSignUp {
+    padding: 10px 0px 10px 10px;
+    border: 0.5px solid #a7a8aa;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.inputPasswordSignup {
+    background-color: white;
+    background-image: url('images/img5.png');
+    background-position: 330px 4px;
+    background-repeat: no-repeat;
+}
+
+input:focus {
+    border: 0.5px solid #a79cfa;
+}
+
+.rem {
+    display: flex;
+}
